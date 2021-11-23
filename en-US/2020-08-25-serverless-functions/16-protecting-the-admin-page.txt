@@ -8,7 +8,7 @@ So I can just copy paste it in here and it shows us here's the header which is l
 And that's what the apps that use this identity share to say that like, yes, this is in fact a valid JSON Web Token and not somebody just spoofing it and sending it over to me. We aren't going to worry about that here because Netlify Identity is going to handle all of that validation for us.
 
 [00:01:12]
-But if you want to dig deeper into that, there are really good resources on the Auth0 website on octaves documentation. You can dig into the OAuth Doc's jwt.io is going to take you through a bunch of information about that. But what we can see here if we look at the payload of this JWT, is that we have our expiration date.
+But if you want to dig deeper into that, there are really good resources on the Auth0 website, on Okta documentation. You can dig into the OAuth Doc's jwt.io is going to take you through a bunch of information about that. But what we can see here if we look at the payload of this JWT, is that we have our expiration date.
 
 [00:01:35]
 We have our subscriber ID. So this is our Netlify user ID. We have our email address, and then we have app metadata and user metadata. And so this is what tells us that we have an actual user like we know that we've got a user. The user's token is valid for this long and this is what we know about this user.

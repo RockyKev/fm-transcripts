@@ -59,7 +59,7 @@ Once this is done, we'll be able to actually view this site live and be pulling 
 So we don't wanna do that yet, we wanna make sure that that's protected, so we're gonna go back to our dashboard here, and hit the Identity tab. Now I wanna just enable identity tab. And what I want with identity is this just gives us a pretty simple way to have users.
 
 [00:07:21]
-And it's gonna be like it uses JSON Web tokens, which is if you're doing front end authentication management, JSON Web tokens, or JWTs or JOTS, depending on who's talking about them. They will be a really common approach for this. You get those from Zero from Author, from most OAuth solutions.
+And it's gonna be like it uses JSON Web tokens, which is if you're doing front end authentication management, JSON Web tokens, or JWTs or JOTS, depending on who's talking about them. They will be a really common approach for this. You get those from Auth0, from Okta, from most OAuth solutions.
 
 [00:07:42]
 So the flow that we're using here, we're using Netlify Identity, but this will apply to most identity providers and you'll be able to deal with it, using whatever platform you want. So now that I've got this, I'm gonna use something called the Netlify Identity Widget to handle the login because we don't wanna build the front end for this, we just wanna have it work.

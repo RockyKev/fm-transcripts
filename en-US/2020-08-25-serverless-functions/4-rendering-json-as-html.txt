@@ -65,7 +65,7 @@ But now for each movie, we have created a new entry and appended it to the DOM. 
 If we had to set up a back end service or create a node server, build an express server, get a PHP site gone. We would have had to figure out where the hosting is and figure out how to set up routing and figure out all this stuff. Whereas with a serverless function, we just get to write a little bit of logic to get our movies.
 
 [00:08:17]
-And then we get to write some front end code to pull it in. And now we could also shift this around like we're loading at on the client side. We could if we wanted to use like a static site generator. We could even do it with 11D if we wanted to.
+And then we get to write some front end code to pull it in. And now we could also shift this around like we're loading at on the client side. We could if we wanted to use like a static site generator. We could even do it with Eleventy if we wanted to.
 
 [00:08:32]
 We could do this request at build time. And then we wouldn't even need to have the like that JavaScript. We wouldn't even need JavaScript on this website to show these movies. We could build it from like build time loaded data. But for the sake of not making this a workshop about static site generators and instead focusing on serverless functions, we're loading async on the client side.
